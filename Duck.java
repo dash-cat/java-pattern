@@ -1,6 +1,6 @@
 public abstract class Duck {
-  FlyBehavior flyBehavior;
-  QuackBehavior quackBehavior;
+    FlyBehavior flyBehavior;
+    QuackBehavior quackBehavior;
   
   public Duck() {
   }
@@ -15,10 +15,19 @@ public abstract class Duck {
   }
   
   public void swim () {
-  	System.out.println("All ducks float, even decoys!")
+  	System.out.println("All ducks float, even decoys!");
   }
   
 }
-public interface FlyBehavior {
-    public void fly()
-}
+
+
+
+
+
+
+
+
+
+
+
+
